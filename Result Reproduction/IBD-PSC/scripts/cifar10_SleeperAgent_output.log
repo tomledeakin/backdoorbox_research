@@ -1,0 +1,31 @@
+Creating poisoned training set for SleeperAgent on cifar10...
+[target class : 0]
+Files already downloaded and verified
+Poisoned set directory 'poisoned_train_set/cifar10/SleeperAgent_0.010_poison_seed=0' to be created is not empty! Exiting...
+Training the model on the poisoned dataset...
+Testing the backdoor model...
+Visualizing the model's latent space...
+Using method: pca
+Using method: tsne
+Using method: umap
+Using method: oracle
+Using method: mean_diff
+Using method: SS
+Using method: isomap
+Using method: lle
+Using method: kpca
+Using method: spectral
+Applying IBD_PSC defense method...
+trigger_path: ./triggers/none
+No trigger mask found! By default masking all black pixels...
+Model 'poisoned_train_set/cifar10/SleeperAgent_0.010_poison_seed=0/full_base_aug_seed=2333.pt' not found.
+ba: 9.975000381469727
+asr: 0.0
+target label: tensor([0], device='cuda:0')
+start_index: 1
+TPR: 0.00
+FPR: 0.00
+AUC: 0.4645
+f1 score: 0.0
+Elapsed time: 33.16s
+Experiment for cifar10 with SleeperAgent completed.

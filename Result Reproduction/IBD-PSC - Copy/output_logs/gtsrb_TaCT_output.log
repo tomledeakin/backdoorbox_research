@@ -1,0 +1,17 @@
+Creating poisoned training set for TaCT on gtsrb...
+[target class : 2]
+trigger: ./triggers/trojan_square_32.png
+[Generate Poisoned Set] Save 26640 Images
+[Generate Poisoned Set] Save poisoned_train_set/gtsrb/TaCT_0.010_cover=0.000_poison_seed=0/cover_indices
+[Generate Poisoned Set] Save poisoned_train_set/gtsrb/TaCT_0.010_cover=0.000_poison_seed=0/imgs
+[Generate Poisoned Set] Save poisoned_train_set/gtsrb/TaCT_0.010_cover=0.000_poison_seed=0/labels
+[Generate Poisoned Set] Save poisoned_train_set/gtsrb/TaCT_0.010_cover=0.000_poison_seed=0/poison_indices
+Training the model on the poisoned dataset...
+dataset : poisoned_train_set/gtsrb/TaCT_0.010_cover=0.000_poison_seed=0/imgs
+Testing the backdoor model...
+Visualizing the model's latent space...
+Applying IBD_PSC defense method...
+trigger_path: ./triggers/trojan_square_32.png
+trigger_mask_path: ./triggers/mask_trojan_square_32.png
+Model 'poisoned_train_set/gtsrb/TaCT_0.010_cover=0.000_poison_seed=0/full_base_aug_seed=2333.pt' not found.
+Experiment for gtsrb with TaCT completed.

@@ -1,0 +1,22 @@
+Creating poisoned training set for adaptive_patch on gtsrb...
+[target class : 2]
+Trigger #0: phoenix_corner_32.png
+Trigger #1: firefox_corner_32.png
+Trigger #2: badnet_patch4_32.png
+Trigger #3: trojan_square_32.png
+Poison indices: [207, 283, 312, 557, 576, 958, 1183, 1201, 1278, 1535, 1966, 2072, 2111, 2133, 2192, 2209, 2327, 2345, 2421, 2455, 2478, 2974, 3006, 3068, 3071, 3249, 3471, 3535, 3762, 3832, 3871, 3997, 4071, 4195, 4243, 4397, 4402, 4508, 4729, 4783, 4823, 4922, 4938, 5004, 5255, 5287, 5419, 5488, 5528, 5588, 5739, 5753, 6054, 6114, 6136, 6172, 6213, 6219, 6224, 6239, 6441, 6469, 6499, 6545, 6922, 6964, 7029, 7151, 7386, 7557, 7918, 7922, 7924, 7945, 8209, 8595, 8672, 8764, 8787, 8844, 8931, 9236, 9269, 9278, 9340, 9367, 9381, 9404, 9470, 9594, 9616, 9906, 9931, 9965, 9988, 10054, 10139, 10160, 10213, 10346, 10375, 10580, 10590, 10606, 10760, 10851, 11062, 11096, 11159, 11217, 11330, 11350, 11365, 11472, 11579, 11712, 11781, 11843, 11845, 12082, 12169, 12241, 12261, 12262, 12298, 12511, 12519, 12634, 12733, 12777, 12810, 12957, 13091, 13287, 13311, 13395, 13468, 13489, 13911, 13970, 13992, 14132, 14196, 14227, 14284, 14424, 14432, 14445, 14572, 14583, 14613, 14658, 14727, 14817, 14915, 14916, 14956, 15155, 15169, 15232, 15239, 15490, 15587, 15864, 15910, 16123, 16249, 16338, 16528, 16585, 16749, 16831, 16893, 16939, 17018, 17068, 17126, 17185, 17197, 17305, 17335, 17478, 17497, 17529, 17677, 18005, 18025, 18088, 18221, 18350, 18443, 18714, 18847, 18873, 19151, 19317, 19499, 19504, 19529, 19756, 19771, 19829, 19838, 20221, 20290, 20318, 20370, 20482, 20555, 20662, 20988, 21023, 21190, 21257, 21307, 21573, 21617, 21773, 21803, 21862, 21913, 21923, 22225, 22250, 22372, 22513, 22557, 22605, 22782, 22827, 23052, 23065, 23119, 23129, 23181, 23210, 23261, 23308, 23454, 23594, 23696, 23705, 23715, 23719, 23972, 24123, 24163, 24228, 24365, 24386, 24646, 24724, 24754, 24835, 24870, 24929, 25513, 25638, 25719, 25775, 26006, 26184, 26187, 26211, 26550, 26594]
+Cover indices: []
+[Generate Poisoned Set] Save 26640 Images
+[Generate Poisoned Set] Save poisoned_train_set/gtsrb/adaptive_patch_0.010_cover=0.000_poison_seed=0/cover_indices
+[Generate Poisoned Set] Save poisoned_train_set/gtsrb/adaptive_patch_0.010_cover=0.000_poison_seed=0/imgs
+[Generate Poisoned Set] Save poisoned_train_set/gtsrb/adaptive_patch_0.010_cover=0.000_poison_seed=0/labels
+[Generate Poisoned Set] Save poisoned_train_set/gtsrb/adaptive_patch_0.010_cover=0.000_poison_seed=0/poison_indices
+Training the model on the poisoned dataset...
+dataset : poisoned_train_set/gtsrb/adaptive_patch_0.010_cover=0.000_poison_seed=0/imgs
+Testing the backdoor model...
+Visualizing the model's latent space...
+Applying IBD_PSC defense method...
+trigger_path: ./triggers/none
+No trigger mask found! By default masking all black pixels...
+Model 'poisoned_train_set/gtsrb/adaptive_patch_0.010_cover=0.000_poison_seed=0/full_base_aug_seed=2333.pt' not found.
+Experiment for gtsrb with adaptive_patch completed.

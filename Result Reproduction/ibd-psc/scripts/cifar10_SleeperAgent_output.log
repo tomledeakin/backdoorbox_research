@@ -1,0 +1,65 @@
+Creating poisoned training set for SleeperAgent on cifar10...
+[target class : 0]
+Files already downloaded and verified
+Files already downloaded and verified
+Files already downloaded and verified
+This machine has 1 cuda devices, and use 1 of them to train.
+Adding patch to bottom right...
+******pretraining*********
+
+Epoch 1[2024-11-11_22:38:38] train_acc: 32.75, test_acc: 15.44, source_asr: 7.00, full_asr: 11.02
+
+Epoch 2[2024-11-11_22:46:38] train_acc: 47.53, test_acc: 16.96, source_asr: 17.40, full_asr: 18.69
+
+Epoch 3[2024-11-11_22:54:52] train_acc: 57.48, test_acc: 21.73, source_asr: 0.90, full_asr: 1.84
+
+Epoch 4[2024-11-11_23:03:05] train_acc: 65.71, test_acc: 29.37, source_asr: 18.70, full_asr: 12.29
+
+Epoch 5[2024-11-11_23:11:19] train_acc: 72.69, test_acc: 30.37, source_asr: 40.00, full_asr: 23.91
+
+Epoch 6[2024-11-11_23:19:28] train_acc: 76.45, test_acc: 42.81, source_asr: 35.70, full_asr: 14.21
+
+Epoch 7[2024-11-11_23:27:39] train_acc: 78.67, test_acc: 43.00, source_asr: 67.20, full_asr: 32.61
+
+Epoch 8[2024-11-11_23:35:54] train_acc: 80.03, test_acc: 44.56, source_asr: 18.50, full_asr: 13.79
+
+Epoch 9[2024-11-11_23:44:02] train_acc: 81.27, test_acc: 46.37, source_asr: 19.60, full_asr: 11.37
+
+Epoch 10[2024-11-11_23:52:10] train_acc: 82.01, test_acc: 48.33, source_asr: 25.50, full_asr: 12.61
+
+Epoch 11[2024-11-12_00:00:21] train_acc: 82.58, test_acc: 51.22, source_asr: 15.40, full_asr: 8.95
+
+Epoch 12[2024-11-12_00:08:33] train_acc: 83.12, test_acc: 55.46, source_asr: 40.00, full_asr: 28.15
+
+Epoch 13[2024-11-12_00:16:40] train_acc: 83.80, test_acc: 46.34, source_asr: 2.90, full_asr: 3.45
+
+Epoch 14[2024-11-12_00:24:41] train_acc: 84.20, test_acc: 50.23, source_asr: 17.00, full_asr: 9.92
+
+Epoch 15[2024-11-12_00:32:46] train_acc: 84.44, test_acc: 52.59, source_asr: 4.30, full_asr: 7.81
+
+Epoch 16[2024-11-12_00:40:47] train_acc: 84.92, test_acc: 43.18, source_asr: 11.90, full_asr: 10.55
+
+Epoch 17[2024-11-12_00:48:52] train_acc: 85.16, test_acc: 55.01, source_asr: 11.50, full_asr: 13.61
+
+Epoch 18[2024-11-12_00:56:54] train_acc: 85.56, test_acc: 49.84, source_asr: 25.80, full_asr: 22.86
+
+Epoch 19[2024-11-12_01:04:53] train_acc: 85.80, test_acc: 41.46, source_asr: 19.60, full_asr: 11.21
+
+Epoch 20[2024-11-12_01:12:53] train_acc: 85.61, test_acc: 63.34, source_asr: 4.80, full_asr: 6.83
+
+Epoch 21[2024-11-12_01:20:50] train_acc: 86.00, test_acc: 50.92, source_asr: 18.80, full_asr: 15.65
+
+Epoch 22[2024-11-12_01:28:46] train_acc: 86.29, test_acc: 63.48, source_asr: 14.20, full_asr: 13.72
+
+Epoch 23[2024-11-12_01:36:41] train_acc: 86.27, test_acc: 61.25, source_asr: 7.60, full_asr: 9.36
+
+Epoch 24[2024-11-12_01:44:41] train_acc: 86.59, test_acc: 57.33, source_asr: 7.70, full_asr: 8.23
+
+Epoch 25[2024-11-12_01:52:40] train_acc: 86.54, test_acc: 47.53, source_asr: 17.80, full_asr: 9.02
+
+Epoch 26[2024-11-12_02:00:41] train_acc: 86.88, test_acc: 49.30, source_asr: 10.90, full_asr: 7.51
+
+Epoch 27[2024-11-12_02:08:43] train_acc: 86.63, test_acc: 51.07, source_asr: 5.50, full_asr: 6.45
+
+Epoch 28[2024-11-12_02:16:43] train_acc: 86.86, test_acc: 56.39, source_asr: 4.60, full_asr: 7.29
+

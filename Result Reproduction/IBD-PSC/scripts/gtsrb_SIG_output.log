@@ -1,0 +1,640 @@
+Creating poisoned training set for SIG on gtsrb...
+[target class : 2]
+Poisoned set directory 'poisoned_train_set/gtsrb/SIG_0.010_poison_seed=0' to be created is not empty! Exiting...
+Training the model on the poisoned dataset...
+dataset : poisoned_train_set/gtsrb/SIG_0.010_poison_seed=0/imgs
+Will save to 'poisoned_train_set/gtsrb/SIG_0.010_poison_seed=0/full_base_aug_seed=2333.pt'.
+Model 'poisoned_train_set/gtsrb/SIG_0.010_poison_seed=0/full_base_aug_seed=2333.pt' already exists!
+<Backdoor Training> Train Epoch: 1 	Loss: 0.037128, lr: 0.010000, Time: 7.03s
+Clean ACC: 9649/10630 = 0.907714, Loss: 0.3022460341453552
+ASR: 4720/10005 = 0.471764
+
+
+<Backdoor Training> Train Epoch: 2 	Loss: 0.025358, lr: 0.010000, Time: 3.54s
+Clean ACC: 9977/10630 = 0.938570, Loss: 0.195256307721138
+ASR: 5231/10005 = 0.522839
+
+
+<Backdoor Training> Train Epoch: 3 	Loss: 0.032386, lr: 0.010000, Time: 3.53s
+Clean ACC: 10132/10630 = 0.953151, Loss: 0.20033931732177734
+ASR: 4881/10005 = 0.487856
+
+
+<Backdoor Training> Train Epoch: 4 	Loss: 0.006579, lr: 0.010000, Time: 3.50s
+Clean ACC: 10248/10630 = 0.964064, Loss: 0.12953640520572662
+ASR: 5340/10005 = 0.533733
+
+
+<Backdoor Training> Train Epoch: 5 	Loss: 0.005573, lr: 0.010000, Time: 3.49s
+Clean ACC: 10117/10630 = 0.951740, Loss: 0.16832613945007324
+ASR: 5386/10005 = 0.538331
+
+
+<Backdoor Training> Train Epoch: 6 	Loss: 0.014769, lr: 0.010000, Time: 3.56s
+Clean ACC: 10186/10630 = 0.958231, Loss: 0.15620774030685425
+ASR: 5804/10005 = 0.580110
+
+
+<Backdoor Training> Train Epoch: 7 	Loss: 0.006217, lr: 0.010000, Time: 3.46s
+Clean ACC: 10247/10630 = 0.963970, Loss: 0.13050000369548798
+ASR: 5538/10005 = 0.553523
+
+
+<Backdoor Training> Train Epoch: 8 	Loss: 0.000521, lr: 0.010000, Time: 3.72s
+Clean ACC: 10282/10630 = 0.967262, Loss: 0.11385993659496307
+ASR: 5632/10005 = 0.562919
+
+
+<Backdoor Training> Train Epoch: 9 	Loss: 0.004286, lr: 0.010000, Time: 3.68s
+Clean ACC: 10299/10630 = 0.968862, Loss: 0.1098104938864708
+ASR: 5798/10005 = 0.579510
+
+
+<Backdoor Training> Train Epoch: 10 	Loss: 0.000639, lr: 0.010000, Time: 3.78s
+Clean ACC: 10290/10630 = 0.968015, Loss: 0.11438921093940735
+ASR: 5715/10005 = 0.571214
+
+
+<Backdoor Training> Train Epoch: 11 	Loss: 0.002321, lr: 0.010000, Time: 3.71s
+Clean ACC: 10315/10630 = 0.970367, Loss: 0.10901916027069092
+ASR: 5552/10005 = 0.554923
+
+
+<Backdoor Training> Train Epoch: 12 	Loss: 0.000286, lr: 0.010000, Time: 3.58s
+Clean ACC: 10309/10630 = 0.969802, Loss: 0.10930570960044861
+ASR: 5632/10005 = 0.562919
+
+
+<Backdoor Training> Train Epoch: 13 	Loss: 0.000252, lr: 0.010000, Time: 3.64s
+Clean ACC: 10308/10630 = 0.969708, Loss: 0.1127513200044632
+ASR: 5758/10005 = 0.575512
+
+
+<Backdoor Training> Train Epoch: 14 	Loss: 0.001180, lr: 0.010000, Time: 3.72s
+Clean ACC: 10313/10630 = 0.970179, Loss: 0.1098942682147026
+ASR: 5779/10005 = 0.577611
+
+
+<Backdoor Training> Train Epoch: 15 	Loss: 0.003675, lr: 0.010000, Time: 3.70s
+Clean ACC: 10297/10630 = 0.968674, Loss: 0.11161103844642639
+ASR: 5500/10005 = 0.549725
+
+
+<Backdoor Training> Train Epoch: 16 	Loss: 0.000726, lr: 0.010000, Time: 3.72s
+Clean ACC: 10320/10630 = 0.970837, Loss: 0.10804896056652069
+ASR: 5680/10005 = 0.567716
+
+
+<Backdoor Training> Train Epoch: 17 	Loss: 0.001158, lr: 0.010000, Time: 3.65s
+Clean ACC: 10307/10630 = 0.969614, Loss: 0.10778162628412247
+ASR: 5732/10005 = 0.572914
+
+
+<Backdoor Training> Train Epoch: 18 	Loss: 0.000192, lr: 0.010000, Time: 3.77s
+Clean ACC: 10307/10630 = 0.969614, Loss: 0.1062743067741394
+ASR: 5494/10005 = 0.549125
+
+
+<Backdoor Training> Train Epoch: 19 	Loss: 0.000196, lr: 0.010000, Time: 3.70s
+Clean ACC: 10313/10630 = 0.970179, Loss: 0.11163339763879776
+ASR: 5546/10005 = 0.554323
+
+
+<Backdoor Training> Train Epoch: 20 	Loss: 0.000361, lr: 0.010000, Time: 3.60s
+Clean ACC: 10324/10630 = 0.971214, Loss: 0.10349508374929428
+ASR: 5676/10005 = 0.567316
+
+
+<Backdoor Training> Train Epoch: 21 	Loss: 0.000212, lr: 0.010000, Time: 3.61s
+Clean ACC: 10326/10630 = 0.971402, Loss: 0.105720654129982
+ASR: 5555/10005 = 0.555222
+
+
+<Backdoor Training> Train Epoch: 22 	Loss: 0.001050, lr: 0.010000, Time: 3.54s
+Clean ACC: 10222/10630 = 0.961618, Loss: 0.14458589255809784
+ASR: 5652/10005 = 0.564918
+
+
+<Backdoor Training> Train Epoch: 23 	Loss: 0.024517, lr: 0.010000, Time: 3.53s
+Clean ACC: 10257/10630 = 0.964911, Loss: 0.12196898460388184
+ASR: 5144/10005 = 0.514143
+
+
+<Backdoor Training> Train Epoch: 24 	Loss: 0.004946, lr: 0.010000, Time: 3.55s
+Clean ACC: 10299/10630 = 0.968862, Loss: 0.10891876369714737
+ASR: 5443/10005 = 0.544028
+
+
+<Backdoor Training> Train Epoch: 25 	Loss: 0.000881, lr: 0.010000, Time: 3.45s
+Clean ACC: 10333/10630 = 0.972060, Loss: 0.09875999391078949
+ASR: 5571/10005 = 0.556822
+
+
+<Backdoor Training> Train Epoch: 26 	Loss: 0.000515, lr: 0.010000, Time: 3.58s
+Clean ACC: 10313/10630 = 0.970179, Loss: 0.10540741682052612
+ASR: 5532/10005 = 0.552924
+
+
+<Backdoor Training> Train Epoch: 27 	Loss: 0.002114, lr: 0.010000, Time: 3.50s
+Clean ACC: 10310/10630 = 0.969897, Loss: 0.09970736503601074
+ASR: 5536/10005 = 0.553323
+
+
+<Backdoor Training> Train Epoch: 28 	Loss: 0.000715, lr: 0.010000, Time: 3.48s
+Clean ACC: 10331/10630 = 0.971872, Loss: 0.09383445233106613
+ASR: 5696/10005 = 0.569315
+
+
+<Backdoor Training> Train Epoch: 29 	Loss: 0.048434, lr: 0.010000, Time: 3.50s
+Clean ACC: 10325/10630 = 0.971308, Loss: 0.09496912360191345
+ASR: 5606/10005 = 0.560320
+
+
+<Backdoor Training> Train Epoch: 30 	Loss: 0.037440, lr: 0.010000, Time: 3.48s
+Clean ACC: 10294/10630 = 0.968391, Loss: 0.10599318891763687
+ASR: 5300/10005 = 0.529735
+
+
+<Backdoor Training> Train Epoch: 31 	Loss: 0.002213, lr: 0.001000, Time: 3.55s
+Clean ACC: 10306/10630 = 0.969520, Loss: 0.10253338515758514
+ASR: 5274/10005 = 0.527136
+
+
+<Backdoor Training> Train Epoch: 32 	Loss: 0.000508, lr: 0.001000, Time: 3.48s
+Clean ACC: 10300/10630 = 0.968956, Loss: 0.10271168500185013
+ASR: 5404/10005 = 0.540130
+
+
+<Backdoor Training> Train Epoch: 33 	Loss: 0.000948, lr: 0.001000, Time: 3.46s
+Clean ACC: 10304/10630 = 0.969332, Loss: 0.10301903635263443
+ASR: 5376/10005 = 0.537331
+
+
+<Backdoor Training> Train Epoch: 34 	Loss: 0.008742, lr: 0.001000, Time: 3.56s
+Clean ACC: 10299/10630 = 0.968862, Loss: 0.10264609009027481
+ASR: 5439/10005 = 0.543628
+
+
+<Backdoor Training> Train Epoch: 35 	Loss: 0.001280, lr: 0.001000, Time: 3.45s
+Clean ACC: 10306/10630 = 0.969520, Loss: 0.10188883543014526
+ASR: 5386/10005 = 0.538331
+
+
+<Backdoor Training> Train Epoch: 36 	Loss: 0.000284, lr: 0.001000, Time: 3.50s
+Clean ACC: 10311/10630 = 0.969991, Loss: 0.10043426603078842
+ASR: 5340/10005 = 0.533733
+
+
+<Backdoor Training> Train Epoch: 37 	Loss: 0.000703, lr: 0.001000, Time: 3.44s
+Clean ACC: 10310/10630 = 0.969897, Loss: 0.0999370589852333
+ASR: 5333/10005 = 0.533033
+
+
+<Backdoor Training> Train Epoch: 38 	Loss: 0.000365, lr: 0.001000, Time: 3.57s
+Clean ACC: 10309/10630 = 0.969802, Loss: 0.10150627791881561
+ASR: 5395/10005 = 0.539230
+
+
+<Backdoor Training> Train Epoch: 39 	Loss: 0.000180, lr: 0.001000, Time: 3.54s
+Clean ACC: 10305/10630 = 0.969426, Loss: 0.10076472908258438
+ASR: 5340/10005 = 0.533733
+
+
+<Backdoor Training> Train Epoch: 40 	Loss: 0.000352, lr: 0.001000, Time: 3.51s
+Clean ACC: 10310/10630 = 0.969897, Loss: 0.10010041296482086
+ASR: 5415/10005 = 0.541229
+
+
+<Backdoor Training> Train Epoch: 41 	Loss: 0.000757, lr: 0.001000, Time: 3.62s
+Clean ACC: 10313/10630 = 0.970179, Loss: 0.09970275312662125
+ASR: 5355/10005 = 0.535232
+
+
+<Backdoor Training> Train Epoch: 42 	Loss: 0.001922, lr: 0.001000, Time: 3.50s
+Clean ACC: 10314/10630 = 0.970273, Loss: 0.10093128681182861
+ASR: 5475/10005 = 0.547226
+
+
+<Backdoor Training> Train Epoch: 43 	Loss: 0.001051, lr: 0.001000, Time: 3.61s
+Clean ACC: 10315/10630 = 0.970367, Loss: 0.09887397289276123
+ASR: 5490/10005 = 0.548726
+
+
+<Backdoor Training> Train Epoch: 44 	Loss: 0.001460, lr: 0.001000, Time: 3.52s
+Clean ACC: 10312/10630 = 0.970085, Loss: 0.09975580871105194
+ASR: 5493/10005 = 0.549025
+
+
+<Backdoor Training> Train Epoch: 45 	Loss: 0.001123, lr: 0.001000, Time: 3.53s
+Clean ACC: 10325/10630 = 0.971308, Loss: 0.09608504176139832
+ASR: 5475/10005 = 0.547226
+
+
+<Backdoor Training> Train Epoch: 46 	Loss: 0.000462, lr: 0.001000, Time: 3.44s
+Clean ACC: 10323/10630 = 0.971119, Loss: 0.09600279480218887
+ASR: 5500/10005 = 0.549725
+
+
+<Backdoor Training> Train Epoch: 47 	Loss: 0.002548, lr: 0.001000, Time: 3.50s
+Clean ACC: 10325/10630 = 0.971308, Loss: 0.09564553201198578
+ASR: 5534/10005 = 0.553123
+
+
+<Backdoor Training> Train Epoch: 48 	Loss: 0.003445, lr: 0.001000, Time: 3.55s
+Clean ACC: 10317/10630 = 0.970555, Loss: 0.10014691203832626
+ASR: 5555/10005 = 0.555222
+
+
+<Backdoor Training> Train Epoch: 49 	Loss: 0.000127, lr: 0.001000, Time: 3.53s
+Clean ACC: 10323/10630 = 0.971119, Loss: 0.09583950787782669
+ASR: 5493/10005 = 0.549025
+
+
+<Backdoor Training> Train Epoch: 50 	Loss: 0.010930, lr: 0.001000, Time: 3.43s
+Clean ACC: 10307/10630 = 0.969614, Loss: 0.10087023675441742
+ASR: 5484/10005 = 0.548126
+
+
+<Backdoor Training> Train Epoch: 51 	Loss: 0.001346, lr: 0.001000, Time: 3.46s
+Clean ACC: 10327/10630 = 0.971496, Loss: 0.09703420102596283
+ASR: 5517/10005 = 0.551424
+
+
+<Backdoor Training> Train Epoch: 52 	Loss: 0.000291, lr: 0.001000, Time: 3.45s
+Clean ACC: 10328/10630 = 0.971590, Loss: 0.09594210982322693
+ASR: 5415/10005 = 0.541229
+
+
+<Backdoor Training> Train Epoch: 53 	Loss: 0.000241, lr: 0.001000, Time: 3.44s
+Clean ACC: 10321/10630 = 0.970931, Loss: 0.09926304221153259
+ASR: 5481/10005 = 0.547826
+
+
+<Backdoor Training> Train Epoch: 54 	Loss: 0.000342, lr: 0.001000, Time: 3.57s
+Clean ACC: 10320/10630 = 0.970837, Loss: 0.09718228876590729
+ASR: 5464/10005 = 0.546127
+
+
+<Backdoor Training> Train Epoch: 55 	Loss: 0.002393, lr: 0.001000, Time: 3.51s
+Clean ACC: 10316/10630 = 0.970461, Loss: 0.0990603119134903
+ASR: 5380/10005 = 0.537731
+
+
+<Backdoor Training> Train Epoch: 56 	Loss: 0.000378, lr: 0.001000, Time: 3.50s
+Clean ACC: 10335/10630 = 0.972248, Loss: 0.09506791830062866
+ASR: 5402/10005 = 0.539930
+
+
+<Backdoor Training> Train Epoch: 57 	Loss: 0.000618, lr: 0.001000, Time: 3.54s
+Clean ACC: 10334/10630 = 0.972154, Loss: 0.09417454153299332
+ASR: 5417/10005 = 0.541429
+
+
+<Backdoor Training> Train Epoch: 58 	Loss: 0.005687, lr: 0.001000, Time: 3.56s
+Clean ACC: 10326/10630 = 0.971402, Loss: 0.09549791365861893
+ASR: 5504/10005 = 0.550125
+
+
+<Backdoor Training> Train Epoch: 59 	Loss: 0.000430, lr: 0.001000, Time: 3.55s
+Clean ACC: 10324/10630 = 0.971214, Loss: 0.09511527419090271
+ASR: 5464/10005 = 0.546127
+
+
+<Backdoor Training> Train Epoch: 60 	Loss: 0.000993, lr: 0.001000, Time: 3.47s
+Clean ACC: 10318/10630 = 0.970649, Loss: 0.09604330360889435
+ASR: 5469/10005 = 0.546627
+
+
+<Backdoor Training> Train Epoch: 61 	Loss: 0.000357, lr: 0.000100, Time: 3.49s
+Clean ACC: 10318/10630 = 0.970649, Loss: 0.09646721184253693
+ASR: 5392/10005 = 0.538931
+
+
+<Backdoor Training> Train Epoch: 62 	Loss: 0.001688, lr: 0.000100, Time: 3.50s
+Clean ACC: 10325/10630 = 0.971308, Loss: 0.0969233512878418
+ASR: 5592/10005 = 0.558921
+
+
+<Backdoor Training> Train Epoch: 63 	Loss: 0.002142, lr: 0.000100, Time: 3.41s
+Clean ACC: 10326/10630 = 0.971402, Loss: 0.09530946612358093
+ASR: 5456/10005 = 0.545327
+
+
+<Backdoor Training> Train Epoch: 64 	Loss: 0.000855, lr: 0.000100, Time: 3.51s
+Clean ACC: 10330/10630 = 0.971778, Loss: 0.09399130195379257
+ASR: 5310/10005 = 0.530735
+
+
+<Backdoor Training> Train Epoch: 65 	Loss: 0.000661, lr: 0.000100, Time: 3.54s
+Clean ACC: 10332/10630 = 0.971966, Loss: 0.09247983992099762
+ASR: 5475/10005 = 0.547226
+
+
+<Backdoor Training> Train Epoch: 66 	Loss: 0.001013, lr: 0.000100, Time: 3.52s
+Clean ACC: 10319/10630 = 0.970743, Loss: 0.09804390370845795
+ASR: 5397/10005 = 0.539430
+
+
+<Backdoor Training> Train Epoch: 67 	Loss: 0.000988, lr: 0.000100, Time: 3.40s
+Clean ACC: 10330/10630 = 0.971778, Loss: 0.09445525705814362
+ASR: 5400/10005 = 0.539730
+
+
+<Backdoor Training> Train Epoch: 68 	Loss: 0.001693, lr: 0.000100, Time: 3.53s
+Clean ACC: 10319/10630 = 0.970743, Loss: 0.09658405929803848
+ASR: 5465/10005 = 0.546227
+
+
+<Backdoor Training> Train Epoch: 69 	Loss: 0.002808, lr: 0.000100, Time: 3.56s
+Clean ACC: 10324/10630 = 0.971214, Loss: 0.0940968245267868
+ASR: 5532/10005 = 0.552924
+
+
+<Backdoor Training> Train Epoch: 70 	Loss: 0.003458, lr: 0.000100, Time: 3.51s
+Clean ACC: 10334/10630 = 0.972154, Loss: 0.0953369215130806
+ASR: 5512/10005 = 0.550925
+
+
+<Backdoor Training> Train Epoch: 71 	Loss: 0.000606, lr: 0.000100, Time: 3.52s
+Clean ACC: 10331/10630 = 0.971872, Loss: 0.09353748708963394
+ASR: 5422/10005 = 0.541929
+
+
+<Backdoor Training> Train Epoch: 72 	Loss: 0.001866, lr: 0.000100, Time: 3.48s
+Clean ACC: 10334/10630 = 0.972154, Loss: 0.09629388153553009
+ASR: 5550/10005 = 0.554723
+
+
+<Backdoor Training> Train Epoch: 73 	Loss: 0.001435, lr: 0.000100, Time: 3.52s
+Clean ACC: 10329/10630 = 0.971684, Loss: 0.09602733701467514
+ASR: 5463/10005 = 0.546027
+
+
+<Backdoor Training> Train Epoch: 74 	Loss: 0.002113, lr: 0.000100, Time: 3.38s
+Clean ACC: 10320/10630 = 0.970837, Loss: 0.09613405168056488
+ASR: 5504/10005 = 0.550125
+
+
+<Backdoor Training> Train Epoch: 75 	Loss: 0.001597, lr: 0.000100, Time: 3.55s
+Clean ACC: 10327/10630 = 0.971496, Loss: 0.09375973045825958
+ASR: 5540/10005 = 0.553723
+
+
+<Backdoor Training> Train Epoch: 76 	Loss: 0.000390, lr: 0.000100, Time: 3.45s
+Clean ACC: 10325/10630 = 0.971308, Loss: 0.09522248059511185
+ASR: 5363/10005 = 0.536032
+
+
+<Backdoor Training> Train Epoch: 77 	Loss: 0.000500, lr: 0.000100, Time: 3.54s
+Clean ACC: 10329/10630 = 0.971684, Loss: 0.09780911356210709
+ASR: 5509/10005 = 0.550625
+
+
+<Backdoor Training> Train Epoch: 78 	Loss: 0.013091, lr: 0.000100, Time: 3.47s
+Clean ACC: 10309/10630 = 0.969802, Loss: 0.09959638118743896
+ASR: 5412/10005 = 0.540930
+
+
+<Backdoor Training> Train Epoch: 79 	Loss: 0.000474, lr: 0.000100, Time: 3.46s
+Clean ACC: 10328/10630 = 0.971590, Loss: 0.09382901340723038
+ASR: 5522/10005 = 0.551924
+
+
+<Backdoor Training> Train Epoch: 80 	Loss: 0.001842, lr: 0.000100, Time: 3.52s
+Clean ACC: 10334/10630 = 0.972154, Loss: 0.09284186363220215
+ASR: 5474/10005 = 0.547126
+
+
+<Backdoor Training> Train Epoch: 81 	Loss: 0.007443, lr: 0.000100, Time: 3.50s
+Clean ACC: 10327/10630 = 0.971496, Loss: 0.09411732107400894
+ASR: 5461/10005 = 0.545827
+
+
+<Backdoor Training> Train Epoch: 82 	Loss: 0.012133, lr: 0.000100, Time: 3.46s
+Clean ACC: 10330/10630 = 0.971778, Loss: 0.09288383275270462
+ASR: 5516/10005 = 0.551324
+
+
+<Backdoor Training> Train Epoch: 83 	Loss: 0.002003, lr: 0.000100, Time: 3.41s
+Clean ACC: 10331/10630 = 0.971872, Loss: 0.0939779281616211
+ASR: 5463/10005 = 0.546027
+
+
+<Backdoor Training> Train Epoch: 84 	Loss: 0.000516, lr: 0.000100, Time: 3.49s
+Clean ACC: 10326/10630 = 0.971402, Loss: 0.0945979580283165
+ASR: 5412/10005 = 0.540930
+
+
+<Backdoor Training> Train Epoch: 85 	Loss: 0.001718, lr: 0.000100, Time: 3.59s
+Clean ACC: 10326/10630 = 0.971402, Loss: 0.09466323256492615
+ASR: 5438/10005 = 0.543528
+
+
+<Backdoor Training> Train Epoch: 86 	Loss: 0.000166, lr: 0.000100, Time: 3.41s
+Clean ACC: 10325/10630 = 0.971308, Loss: 0.09481311589479446
+ASR: 5389/10005 = 0.538631
+
+
+<Backdoor Training> Train Epoch: 87 	Loss: 0.001152, lr: 0.000100, Time: 3.50s
+Clean ACC: 10326/10630 = 0.971402, Loss: 0.09462856501340866
+ASR: 5412/10005 = 0.540930
+
+
+<Backdoor Training> Train Epoch: 88 	Loss: 0.000554, lr: 0.000100, Time: 3.51s
+Clean ACC: 10330/10630 = 0.971778, Loss: 0.09508861601352692
+ASR: 5408/10005 = 0.540530
+
+
+<Backdoor Training> Train Epoch: 89 	Loss: 0.000902, lr: 0.000100, Time: 3.56s
+Clean ACC: 10327/10630 = 0.971496, Loss: 0.09474370628595352
+ASR: 5382/10005 = 0.537931
+
+
+<Backdoor Training> Train Epoch: 90 	Loss: 0.001406, lr: 0.000100, Time: 3.47s
+Clean ACC: 10334/10630 = 0.972154, Loss: 0.09364079684019089
+ASR: 5468/10005 = 0.546527
+
+
+<Backdoor Training> Train Epoch: 91 	Loss: 0.000488, lr: 0.000100, Time: 3.51s
+Clean ACC: 10324/10630 = 0.971214, Loss: 0.09571969509124756
+ASR: 5564/10005 = 0.556122
+
+
+<Backdoor Training> Train Epoch: 92 	Loss: 0.000914, lr: 0.000100, Time: 3.46s
+Clean ACC: 10334/10630 = 0.972154, Loss: 0.09359563887119293
+ASR: 5413/10005 = 0.541029
+
+
+<Backdoor Training> Train Epoch: 93 	Loss: 0.000927, lr: 0.000100, Time: 3.53s
+Clean ACC: 10324/10630 = 0.971214, Loss: 0.09573959559202194
+ASR: 5500/10005 = 0.549725
+
+
+<Backdoor Training> Train Epoch: 94 	Loss: 0.003024, lr: 0.000100, Time: 3.62s
+Clean ACC: 10315/10630 = 0.970367, Loss: 0.09600216150283813
+ASR: 5466/10005 = 0.546327
+
+
+<Backdoor Training> Train Epoch: 95 	Loss: 0.000497, lr: 0.000100, Time: 3.51s
+Clean ACC: 10338/10630 = 0.972531, Loss: 0.0943179503083229
+ASR: 5504/10005 = 0.550125
+
+
+<Backdoor Training> Train Epoch: 96 	Loss: 0.001251, lr: 0.000100, Time: 3.59s
+Clean ACC: 10345/10630 = 0.973189, Loss: 0.09209167957305908
+ASR: 5568/10005 = 0.556522
+
+
+<Backdoor Training> Train Epoch: 97 	Loss: 0.000505, lr: 0.000100, Time: 3.50s
+Clean ACC: 10327/10630 = 0.971496, Loss: 0.09444906562566757
+ASR: 5487/10005 = 0.548426
+
+
+<Backdoor Training> Train Epoch: 98 	Loss: 0.000269, lr: 0.000100, Time: 3.45s
+Clean ACC: 10326/10630 = 0.971402, Loss: 0.09226666390895844
+ASR: 5390/10005 = 0.538731
+
+
+<Backdoor Training> Train Epoch: 99 	Loss: 0.000522, lr: 0.000100, Time: 3.43s
+Clean ACC: 10328/10630 = 0.971590, Loss: 0.09576167166233063
+ASR: 5533/10005 = 0.553023
+
+
+<Backdoor Training> Train Epoch: 100 	Loss: 0.001178, lr: 0.000100, Time: 3.48s
+Clean ACC: 10333/10630 = 0.972060, Loss: 0.09406667202711105
+ASR: 5486/10005 = 0.548326
+
+
+Testing the backdoor model...
+Evaluating model 'poisoned_train_set/gtsrb/SIG_0.010_poison_seed=0/full_base_aug_seed=2333.pt'...
+Clean ACC: 10333/10630 = 0.972060, Loss: 0.09406667202711105
+ASR: 5486/10005 = 0.548326
+
+Visualizing the model's latent space...
+Using method: pca
+Visualizing model 'poisoned_train_set/gtsrb/SIG_0.010_poison_seed=0/full_base_aug_seed=2333.pt' on gtsrb...
+[test]
+Clean ACC: 10333/10630 = 0.972060, Loss: 0.09406357258558273
+ASR: 5488/10005 = 0.548526
+
+Total Clean: 26374
+Total Poisoned: 266
+torch.Size([512])
+clean_dis: 6.547645, poison_dis: 8.957312
+Saved figure at assets/pca_gtsrb_SIG_0.010_poison_seed=0_full_base_aug_seed=2333.pt_class=2.png
+Using method: tsne
+Visualizing model 'poisoned_train_set/gtsrb/SIG_0.010_poison_seed=0/full_base_aug_seed=2333.pt' on gtsrb...
+[test]
+Clean ACC: 10333/10630 = 0.972060, Loss: 0.09406357258558273
+ASR: 5488/10005 = 0.548526
+
+Total Clean: 26374
+Total Poisoned: 266
+torch.Size([512])
+clean_dis: 6.547645, poison_dis: 8.957312
+Saved figure at assets/tsne_gtsrb_SIG_0.010_poison_seed=0_full_base_aug_seed=2333.pt_class=2.png
+Using method: umap
+Visualizing model 'poisoned_train_set/gtsrb/SIG_0.010_poison_seed=0/full_base_aug_seed=2333.pt' on gtsrb...
+[test]
+Clean ACC: 10333/10630 = 0.972060, Loss: 0.09406357258558273
+ASR: 5488/10005 = 0.548526
+
+Total Clean: 26374
+Total Poisoned: 266
+torch.Size([512])
+clean_dis: 6.547645, poison_dis: 8.957312
+Saved figure at assets/umap_gtsrb_SIG_0.010_poison_seed=0_full_base_aug_seed=2333.pt_class=2.png
+Using method: oracle
+Visualizing model 'poisoned_train_set/gtsrb/SIG_0.010_poison_seed=0/full_base_aug_seed=2333.pt' on gtsrb...
+[test]
+Clean ACC: 10333/10630 = 0.972060, Loss: 0.09406357258558273
+ASR: 5488/10005 = 0.548526
+
+Total Clean: 26374
+Total Poisoned: 266
+torch.Size([512])
+clean_dis: 6.547645, poison_dis: 8.957312
+SVM Accuracy: 1.0
+Saved figure at assets/oracle_gtsrb_SIG_0.010_poison_seed=0_full_base_aug_seed=2333.pt_class=2.png
+Using method: mean_diff
+Visualizing model 'poisoned_train_set/gtsrb/SIG_0.010_poison_seed=0/full_base_aug_seed=2333.pt' on gtsrb...
+[test]
+Clean ACC: 10333/10630 = 0.972060, Loss: 0.09406357258558273
+ASR: 5488/10005 = 0.548526
+
+Total Clean: 26374
+Total Poisoned: 266
+torch.Size([512])
+clean_dis: 6.547645, poison_dis: 8.957312
+Mean L2 distance between poison and clean: 5.474181652069092
+Saved figure at assets/mean_diff_gtsrb_SIG_0.010_poison_seed=0_full_base_aug_seed=2333.pt_class=2.png
+Using method: SS
+Visualizing model 'poisoned_train_set/gtsrb/SIG_0.010_poison_seed=0/full_base_aug_seed=2333.pt' on gtsrb...
+[test]
+Clean ACC: 10333/10630 = 0.972060, Loss: 0.09406357258558273
+ASR: 5488/10005 = 0.548526
+
+Total Clean: 26374
+Total Poisoned: 266
+torch.Size([512])
+clean_dis: 6.547645, poison_dis: 8.957312
+torch.Size([1500])
+Saved figure at assets/SS_gtsrb_SIG_0.010_poison_seed=0_full_base_aug_seed=2333.pt_class=2.png
+Using method: isomap
+Visualizing model 'poisoned_train_set/gtsrb/SIG_0.010_poison_seed=0/full_base_aug_seed=2333.pt' on gtsrb...
+[test]
+Clean ACC: 10333/10630 = 0.972060, Loss: 0.09406357258558273
+ASR: 5488/10005 = 0.548526
+
+Total Clean: 26374
+Total Poisoned: 266
+torch.Size([512])
+clean_dis: 6.547645, poison_dis: 8.957312
+Saved figure at assets/isomap_gtsrb_SIG_0.010_poison_seed=0_full_base_aug_seed=2333.pt_class=2.png
+Using method: lle
+Visualizing model 'poisoned_train_set/gtsrb/SIG_0.010_poison_seed=0/full_base_aug_seed=2333.pt' on gtsrb...
+[test]
+Clean ACC: 10333/10630 = 0.972060, Loss: 0.09406357258558273
+ASR: 5488/10005 = 0.548526
+
+Total Clean: 26374
+Total Poisoned: 266
+torch.Size([512])
+clean_dis: 6.547645, poison_dis: 8.957312
+Saved figure at assets/lle_gtsrb_SIG_0.010_poison_seed=0_full_base_aug_seed=2333.pt_class=2.png
+Using method: kpca
+Visualizing model 'poisoned_train_set/gtsrb/SIG_0.010_poison_seed=0/full_base_aug_seed=2333.pt' on gtsrb...
+[test]
+Clean ACC: 10333/10630 = 0.972060, Loss: 0.09406357258558273
+ASR: 5488/10005 = 0.548526
+
+Total Clean: 26374
+Total Poisoned: 266
+torch.Size([512])
+clean_dis: 6.547645, poison_dis: 8.957312
+Saved figure at assets/kpca_gtsrb_SIG_0.010_poison_seed=0_full_base_aug_seed=2333.pt_class=2.png
+Using method: spectral
+Visualizing model 'poisoned_train_set/gtsrb/SIG_0.010_poison_seed=0/full_base_aug_seed=2333.pt' on gtsrb...
+[test]
+Clean ACC: 10333/10630 = 0.972060, Loss: 0.09406357258558273
+ASR: 5488/10005 = 0.548526
+
+Total Clean: 26374
+Total Poisoned: 266
+torch.Size([512])
+clean_dis: 6.547645, poison_dis: 8.957312
+Saved figure at assets/spectral_gtsrb_SIG_0.010_poison_seed=0_full_base_aug_seed=2333.pt_class=2.png
+Applying IBD_PSC defense method...
+trigger_path: ./triggers/none
+No trigger mask found! By default masking all black pixels...
+Evaluating model 'poisoned_train_set/gtsrb/SIG_0.010_poison_seed=0/full_base_aug_seed=2333.pt'...
+ba: 97.20602416992188
+asr: 57.48723602294922
+target label: tensor([2], device='cuda:0')
+start_index: 11
+TPR: 8.35
+FPR: 15.92
+AUC: 0.2478
+f1 score: 0.13444360333080999
+Elapsed time: 18.32s
+Experiment for gtsrb with SIG completed.

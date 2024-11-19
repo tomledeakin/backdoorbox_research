@@ -1,0 +1,87 @@
+Traceback (most recent call last):
+  File "/home/s222576762/BackdoorBox Research/backdoor-toolbox/train_on_poisoned_set.py", line 164, in <module>
+    print('dataset : %s' % poisoned_set_img_dir)
+                           ^^^^^^^^^^^^^^^^^^^^
+NameError: name 'poisoned_set_img_dir' is not defined. Did you mean: 'poison_set_dir'?
+/home/s222576762/BackdoorBox Research/backdoor-toolbox/test_model.py:112: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  model.load_state_dict(torch.load(model_path))
+Traceback (most recent call last):
+  File "/home/s222576762/BackdoorBox Research/backdoor-toolbox/test_model.py", line 112, in <module>
+    model.load_state_dict(torch.load(model_path))
+                          ^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/s222576762/BackdoorBox Research/backdoor-toolbox/my_env/lib/python3.12/site-packages/torch/serialization.py", line 1319, in load
+    with _open_file_like(f, "rb") as opened_file:
+         ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/s222576762/BackdoorBox Research/backdoor-toolbox/my_env/lib/python3.12/site-packages/torch/serialization.py", line 659, in _open_file_like
+    return _open_file(name_or_buffer, mode)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/s222576762/BackdoorBox Research/backdoor-toolbox/my_env/lib/python3.12/site-packages/torch/serialization.py", line 640, in __init__
+    super().__init__(open(name, mode))
+                     ^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'poisoned_train_set/cifar10/refool_0.010_poison_seed=0/full_base_aug_seed=2333.pt'
+Traceback (most recent call last):
+  File "/home/s222576762/BackdoorBox Research/backdoor-toolbox/visualize.py", line 139, in <module>
+    poisoned_set = tools.IMG_Dataset(data_dir=poisoned_set_img_dir,
+                                              ^^^^^^^^^^^^^^^^^^^^
+NameError: name 'poisoned_set_img_dir' is not defined. Did you mean: 'poison_set_dir'?
+Traceback (most recent call last):
+  File "/home/s222576762/BackdoorBox Research/backdoor-toolbox/visualize.py", line 139, in <module>
+    poisoned_set = tools.IMG_Dataset(data_dir=poisoned_set_img_dir,
+                                              ^^^^^^^^^^^^^^^^^^^^
+NameError: name 'poisoned_set_img_dir' is not defined. Did you mean: 'poison_set_dir'?
+Traceback (most recent call last):
+  File "/home/s222576762/BackdoorBox Research/backdoor-toolbox/visualize.py", line 139, in <module>
+    poisoned_set = tools.IMG_Dataset(data_dir=poisoned_set_img_dir,
+                                              ^^^^^^^^^^^^^^^^^^^^
+NameError: name 'poisoned_set_img_dir' is not defined. Did you mean: 'poison_set_dir'?
+Traceback (most recent call last):
+  File "/home/s222576762/BackdoorBox Research/backdoor-toolbox/visualize.py", line 139, in <module>
+    poisoned_set = tools.IMG_Dataset(data_dir=poisoned_set_img_dir,
+                                              ^^^^^^^^^^^^^^^^^^^^
+NameError: name 'poisoned_set_img_dir' is not defined. Did you mean: 'poison_set_dir'?
+Traceback (most recent call last):
+  File "/home/s222576762/BackdoorBox Research/backdoor-toolbox/visualize.py", line 139, in <module>
+    poisoned_set = tools.IMG_Dataset(data_dir=poisoned_set_img_dir,
+                                              ^^^^^^^^^^^^^^^^^^^^
+NameError: name 'poisoned_set_img_dir' is not defined. Did you mean: 'poison_set_dir'?
+Traceback (most recent call last):
+  File "/home/s222576762/BackdoorBox Research/backdoor-toolbox/visualize.py", line 139, in <module>
+    poisoned_set = tools.IMG_Dataset(data_dir=poisoned_set_img_dir,
+                                              ^^^^^^^^^^^^^^^^^^^^
+NameError: name 'poisoned_set_img_dir' is not defined. Did you mean: 'poison_set_dir'?
+Traceback (most recent call last):
+  File "/home/s222576762/BackdoorBox Research/backdoor-toolbox/visualize.py", line 139, in <module>
+    poisoned_set = tools.IMG_Dataset(data_dir=poisoned_set_img_dir,
+                                              ^^^^^^^^^^^^^^^^^^^^
+NameError: name 'poisoned_set_img_dir' is not defined. Did you mean: 'poison_set_dir'?
+Traceback (most recent call last):
+  File "/home/s222576762/BackdoorBox Research/backdoor-toolbox/visualize.py", line 139, in <module>
+    poisoned_set = tools.IMG_Dataset(data_dir=poisoned_set_img_dir,
+                                              ^^^^^^^^^^^^^^^^^^^^
+NameError: name 'poisoned_set_img_dir' is not defined. Did you mean: 'poison_set_dir'?
+Traceback (most recent call last):
+  File "/home/s222576762/BackdoorBox Research/backdoor-toolbox/visualize.py", line 139, in <module>
+    poisoned_set = tools.IMG_Dataset(data_dir=poisoned_set_img_dir,
+                                              ^^^^^^^^^^^^^^^^^^^^
+NameError: name 'poisoned_set_img_dir' is not defined. Did you mean: 'poison_set_dir'?
+Traceback (most recent call last):
+  File "/home/s222576762/BackdoorBox Research/backdoor-toolbox/visualize.py", line 139, in <module>
+    poisoned_set = tools.IMG_Dataset(data_dir=poisoned_set_img_dir,
+                                              ^^^^^^^^^^^^^^^^^^^^
+NameError: name 'poisoned_set_img_dir' is not defined. Did you mean: 'poison_set_dir'?
+Traceback (most recent call last):
+  File "/home/s222576762/BackdoorBox Research/backdoor-toolbox/other_defense.py", line 191, in <module>
+    defense = IBD_PSC(args)
+              ^^^^^^^^^^^^^
+  File "/home/s222576762/BackdoorBox Research/backdoor-toolbox/other_defenses_tool_box/IBD_PSC.py", line 41, in __init__
+    super().__init__(args)
+  File "/home/s222576762/BackdoorBox Research/backdoor-toolbox/other_defenses_tool_box/backdoor_defense.py", line 59, in __init__
+    self.poison_transform = supervisor.get_poison_transform(poison_type=args.poison_type, dataset_name=args.dataset,
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/s222576762/BackdoorBox Research/backdoor-toolbox/utils/supervisor.py", line 476, in get_poison_transform
+    poison_transform = refool.poison_transform(img_size=img_size, target_class=target_class,
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/s222576762/BackdoorBox Research/backdoor-toolbox/poison_tool_box/refool.py", line 119, in __init__
+    reflection_image_path = os.listdir(reflection_data_dir)
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'data/VOCdevkit/VOC2012/JPEGImages/'

@@ -1,0 +1,4 @@
+mv: cannot stat 'pca_cifar10_badnet.png': No such file or directory
+mv: cannot stat 'tsne_cifar10_badnet.png': No such file or directory
+mv: cannot stat 'oracle_cifar10_badnet.png': No such file or directory
+slurmstepd-legolas: error: *** JOB 654817 ON legolas CANCELLED AT 2024-11-11T20:07:24 ***

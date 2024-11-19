@@ -1,0 +1,74 @@
+/home/s222576762/BackdoorBox Research/backdoor-toolbox/utils/tools.py:28: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  self.img_set = torch.load(data_dir)
+/home/s222576762/BackdoorBox Research/backdoor-toolbox/utils/tools.py:29: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  self.gt = torch.load(label_path)
+/home/s222576762/BackdoorBox Research/backdoor-toolbox/train_on_poisoned_set.py:334: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  meta_info = torch.load(os.path.join(poison_set_dir, "meta_info_{}".format(supervisor.get_model_name(args))))
+Traceback (most recent call last):
+  File "/home/s222576762/BackdoorBox Research/backdoor-toolbox/train_on_poisoned_set.py", line 351, in <module>
+    model = nn.DataParallel(model)
+            ^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/s222576762/BackdoorBox Research/backdoor-toolbox/my_env/lib/python3.12/site-packages/torch/nn/parallel/data_parallel.py", line 168, in __init__
+    self.module.to(self.src_device_obj)
+  File "/home/s222576762/BackdoorBox Research/backdoor-toolbox/my_env/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1340, in to
+    return self._apply(convert)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/s222576762/BackdoorBox Research/backdoor-toolbox/my_env/lib/python3.12/site-packages/torch/nn/modules/module.py", line 900, in _apply
+    module._apply(fn)
+  File "/home/s222576762/BackdoorBox Research/backdoor-toolbox/my_env/lib/python3.12/site-packages/torch/nn/modules/module.py", line 927, in _apply
+    param_applied = fn(param)
+                    ^^^^^^^^^
+  File "/home/s222576762/BackdoorBox Research/backdoor-toolbox/my_env/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1326, in convert
+    return t.to(
+           ^^^^^
+RuntimeError: CUDA error: uncorrectable ECC error encountered
+CUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.
+For debugging consider passing CUDA_LAUNCH_BLOCKING=1
+Compile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.
+
+/home/s222576762/BackdoorBox Research/backdoor-toolbox/test_model.py:112: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  model.load_state_dict(torch.load(model_path))
+/home/s222576762/BackdoorBox Research/backdoor-toolbox/utils/tools.py:29: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  self.gt = torch.load(label_path)
+  0%|          | 0/63 [00:00<?, ?it/s]  2%|▏         | 1/63 [00:03<03:30,  3.40s/it]  8%|▊         | 5/63 [00:03<00:30,  1.89it/s] 14%|█▍        | 9/63 [00:03<00:16,  3.27it/s] 17%|█▋        | 11/63 [00:04<00:14,  3.49it/s] 21%|██        | 13/63 [00:04<00:11,  4.32it/s] 24%|██▍       | 15/63 [00:05<00:12,  3.89it/s] 25%|██▌       | 16/63 [00:05<00:11,  3.96it/s] 29%|██▊       | 18/63 [00:05<00:09,  4.58it/s] 30%|███       | 19/63 [00:06<00:09,  4.53it/s] 32%|███▏      | 20/63 [00:06<00:11,  3.71it/s] 37%|███▋      | 23/63 [00:06<00:07,  5.47it/s] 38%|███▊      | 24/63 [00:07<00:08,  4.47it/s] 43%|████▎     | 27/63 [00:07<00:06,  5.90it/s] 44%|████▍     | 28/63 [00:07<00:08,  4.36it/s] 49%|████▉     | 31/63 [00:08<00:05,  6.27it/s] 51%|█████     | 32/63 [00:08<00:06,  4.63it/s] 56%|█████▌    | 35/63 [00:08<00:04,  6.56it/s] 57%|█████▋    | 36/63 [00:09<00:07,  3.77it/s] 63%|██████▎   | 40/63 [00:10<00:05,  4.10it/s] 68%|██████▊   | 43/63 [00:10<00:03,  5.57it/s] 70%|██████▉   | 44/63 [00:11<00:04,  4.68it/s] 71%|███████▏  | 45/63 [00:11<00:03,  4.90it/s] 75%|███████▍  | 47/63 [00:11<00:03,  4.67it/s] 76%|███████▌  | 48/63 [00:12<00:03,  4.47it/s] 78%|███████▊  | 49/63 [00:12<00:02,  5.06it/s] 81%|████████  | 51/63 [00:12<00:02,  4.95it/s] 83%|████████▎ | 52/63 [00:12<00:02,  4.92it/s] 84%|████████▍ | 53/63 [00:13<00:02,  3.65it/s] 89%|████████▉ | 56/63 [00:13<00:01,  5.98it/s] 90%|█████████ | 57/63 [00:14<00:01,  3.48it/s] 97%|█████████▋| 61/63 [00:15<00:00,  4.25it/s]100%|██████████| 63/63 [00:15<00:00,  4.17it/s]
+/home/s222576762/BackdoorBox Research/backdoor-toolbox/utils/tools.py:28: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  self.img_set = torch.load(data_dir)
+/home/s222576762/BackdoorBox Research/backdoor-toolbox/utils/tools.py:29: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  self.gt = torch.load(label_path)
+/home/s222576762/BackdoorBox Research/backdoor-toolbox/umap_visualize.py:158: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  poison_indices = torch.tensor(torch.load(poison_indices_path))
+/home/s222576762/BackdoorBox Research/backdoor-toolbox/umap_visualize.py:200: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  ckpt = torch.load(path)
+Traceback (most recent call last):
+  File "/home/s222576762/BackdoorBox Research/backdoor-toolbox/umap_visualize.py", line 200, in <module>
+    ckpt = torch.load(path)
+           ^^^^^^^^^^^^^^^^
+  File "/home/s222576762/BackdoorBox Research/backdoor-toolbox/my_env/lib/python3.12/site-packages/torch/serialization.py", line 1360, in load
+    return _load(
+           ^^^^^^
+  File "/home/s222576762/BackdoorBox Research/backdoor-toolbox/my_env/lib/python3.12/site-packages/torch/serialization.py", line 1848, in _load
+    result = unpickler.load()
+             ^^^^^^^^^^^^^^^^
+  File "/home/s222576762/BackdoorBox Research/backdoor-toolbox/my_env/lib/python3.12/site-packages/torch/serialization.py", line 1812, in persistent_load
+    typed_storage = load_tensor(
+                    ^^^^^^^^^^^^
+  File "/home/s222576762/BackdoorBox Research/backdoor-toolbox/my_env/lib/python3.12/site-packages/torch/serialization.py", line 1784, in load_tensor
+    wrap_storage=restore_location(storage, location),
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/s222576762/BackdoorBox Research/backdoor-toolbox/my_env/lib/python3.12/site-packages/torch/serialization.py", line 601, in default_restore_location
+    result = fn(storage, location)
+             ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/s222576762/BackdoorBox Research/backdoor-toolbox/my_env/lib/python3.12/site-packages/torch/serialization.py", line 540, in _deserialize
+    return obj.to(device=device)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/s222576762/BackdoorBox Research/backdoor-toolbox/my_env/lib/python3.12/site-packages/torch/storage.py", line 279, in to
+    return _to(self, device, non_blocking)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/s222576762/BackdoorBox Research/backdoor-toolbox/my_env/lib/python3.12/site-packages/torch/_utils.py", line 88, in _to
+    untyped_storage = torch.UntypedStorage(self.size(), device=device)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+RuntimeError: CUDA error: uncorrectable ECC error encountered
+CUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.
+For debugging consider passing CUDA_LAUNCH_BLOCKING=1
+Compile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.
+

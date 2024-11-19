@@ -1,0 +1,6 @@
+Visualizing the model's latent space for cifar10 with adaptive_blend...
+Visualizing model 'poisoned_train_set/cifar10/adaptive_blend_0.010_alpha=0.200_cover=0.000_trigger=hellokitty_32.png_poison_seed=0/full_base_aug_seed=2333.pt' on cifar10...
+[test]
+Clean ACC: 7477/8000 = 0.934625, Loss: 0.2923150658607483
+ASR: 7171/7193 = 0.996941
+
